@@ -37,7 +37,7 @@ span{
 }
 
 .color-label {
-    color: #333;
+    color: #000;
     position: relative;
     z-index: 2;
     justify-content: flex-end;
@@ -74,7 +74,11 @@ span{
 
 .violet{
     background-color: #7f00ff;
-    box-shadow: #7f00ff;
+    box-shadow: 0 0 15px #7f00ff;
+}
+.blue-violet{
+    background-color: #8A2BE2;
+    box-shadow: 0 0 15px #8A2BE2;
 }
 .light-rose {
     background-color: #ffc1e3;
@@ -89,6 +93,26 @@ span{
 .yellow {
     background-color: #ffeb3b;
     box-shadow: 0 0 15px #ffeb3b;
+}
+
+.gold{
+    background-color: #FFD700;
+    box-shadow: 0 0 15px #FFD700;
+}
+
+.silver{
+    background-color: #c0c0c0;
+    box-shadow: 0 0 15px #c0c0c0;
+}
+
+.bronze{
+    background-color: #CD7F32;
+    box-shadow: 0 0 15px #CD7F32;
+}
+
+.brown{
+    background-color: #964B00;
+    box-shadow: 0 0 15px #964B00;
 }
 
 .magenta {
